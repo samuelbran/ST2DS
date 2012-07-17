@@ -338,6 +338,12 @@
         ,"shadow_color": [76, 76, 76], "shadow_offset": [0, -1]
     },
     {
+        "class": "sidebar_label",
+        "parents": [{"class": "tree_row", "attributes": ["expandable"]}],
+        "settings": ["bold_folder_labels"],
+        "font.bold": true
+    },
+    {
         "class": "minimap_control",
         "viewport_color": [68, 68, 68, 96]
     },
@@ -614,6 +620,15 @@
         "shadow_color": [0, 0, 0, 255],
         "shadow_offset": [0, -1]
     },
+    /* fixing issue  http://www.sublimetext.com/forum/viewtopic.php?f=3&t=7739 */
+
+    {
+        "class": "tab_label",
+        "parents": [{"class": "tab_control", "attributes": ["file_dark"]}],
+        "attributes": ["dirty"],
+        "settings": ["highlight_modified_tabs"],
+        "fg": [255, 161, 52]
+    },    
 
     /** Tab Close Buttons **/
     {
