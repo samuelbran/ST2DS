@@ -228,10 +228,10 @@
     },
     {
         "class": "disclosure_button_control",
-        "layer0.texture": "Theme - Default/arrow_right.png",
+        "layer0.texture": "Theme - Default/folder_closed.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": 0,
-        "layer1.texture": "Theme - Default/arrow_right_over.png",
+        "layer1.texture": "Theme - Default/folder_closed_over.png",
         "layer1.opacity": 0.0,
         "layer1.inner_margin": 0,
         "content_margin": [9, 7, 8, 6]
@@ -249,8 +249,8 @@
     {
         "class": "disclosure_button_control",
         "attributes": ["expanded"],
-        "layer0.texture": "Theme - Default/arrow_down.png",
-        "layer1.texture": "Theme - Default/arrow_down_over.png"
+        "layer0.texture": "Theme - Default/folder_opened.png",
+        "layer1.texture": "Theme - Default/folder_opened_over.png"
     },
     {
         "class": "table_row",
@@ -327,8 +327,8 @@
     },
     {
         "class": "sidebar_label",
-        "color": [187, 187, 187], 
-        "shadow_color": [0, 0, 0], 
+        "color": [187, 187, 187],
+        "shadow_color": [0, 0, 0],
         "shadow_offset": [0, 1]
     },
     {
@@ -628,7 +628,7 @@
         "attributes": ["dirty"],
         "settings": ["highlight_modified_tabs"],
         "fg": [255, 161, 52]
-    },    
+    },
 
     /** Tab Close Buttons **/
     {
