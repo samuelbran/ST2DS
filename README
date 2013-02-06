@@ -1,6 +1,9 @@
-SUBLIME TEXT DARK SIDEBAR
+# SUBLIME TEXT DARK SIDEBAR
 
-How to install:
+### Preview
+![Preview](preview.png)
+
+## How to install:
 
 1. Open Sublime Text 2 and go to Preferences -> Browse Packages.
 2. Locate the Theme - Default folder.
@@ -11,7 +14,7 @@ How to install:
 
 ----------------------------------------------------------------------------------------
 
-Como instalar:
+## Como instalar:
 
 1. Inicia Sublime Text 2 y ve al menú Preferences -> Browse Packages.
 2. Localiza la carpeta Theme - Default.
